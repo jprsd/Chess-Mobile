@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Chess</string>
+    <string name="start_game">Start Game</string>
+    <string name="chessImage">Chess board image</string>
+    <string name="player1">Enter Player 1 Name</string>
+    <string name="player2">Enter Player 2 Name</string>
+    <string name="instructionsButtonText">How To Play</string>
+    <string name="instructions">
+        This game uses the following rules, as described on
+        https://en.wikipedia.org/wiki/Rules_of_chess.\n\nChess is played on a chessboard, a square
+        board divided into 64 squares (eight-by-eight) of
+        alternating color, which is similar to that used in draughts (checkers).
+        No matter what the actual colors of the board, the lighter-colored squares are called
+        \"light\" or \"white\", and the darker-colored squares are called \"dark\" or \"black\".
+        Sixteen \"white\" and sixteen \"black\" pieces are placed on the board at the beginning of
+        the game. The board is placed so that a white square is in each player\'s near-right corner.
+        Horizontal rows are called ranks and vertical rows are called files.\n\nEach player controls
+        sixteen pieces. At the beginning of the game, the pieces are arranged
+        as shown in the diagram: for each side one king, one queen, two rooks, two bishops, two
+        knights, and eight pawns. The pieces are placed, one on a square, as follows. The rooks are
+        placed on the outside corners, right and left edge. The knights are placed immediately
+        inside of the rooks. The bishops are placed immediately inside of the knights. The queen is
+        placed on the central square of the same color of that of the player: white queen on the
+        white square and black queen on the black square. The king takes the vacant spot next to the
+        queen. The pawns are placed one square in front of all of the other pieces.\n\nThe player
+        controlling the white pieces is named \"White\"; the player controlling the black
+        pieces is named \"Black\". White moves first, then players alternate moves. Making a move is
+        required; it is not legal to skip a move, even when having to move is detrimental. Play
+        continues until a king is checkmated.\n\nEach type of chess piece has its own method of
+        movement. A piece moves to a vacant square
+        except when capturing an opponent\'s piece. Except for any move of the knight and castling,
+        pieces cannot jump over other pieces. A piece is captured (or taken) when an attacking enemy
+        piece replaces it on its square.\n\nThe king moves exactly one square horizontally,
+        vertically,
+        or diagonally. A special move with the king known as castling is allowed only once per
+        player, per game.\n\nA rook moves any number of vacant squares horizontally or vertically.
+        It also is moved when
+        castling.\n\nA bishop moves any number of vacant squares diagonally.\n\nThe queen moves any
+        number of vacant squares horizontally, vertically, or diagonally.\n\nA knight moves to the
+        nearest square not on the same rank, file, or diagonal. (This can be
+        thought of as moving two squares horizontally then one square vertically, or moving one
+        square horizontally then two squares vertically—i.e. in an \"L\" pattern.) The knight is not
+        blocked by other pieces: it jumps to the new location.\n\nA pawn moves straight forward one
+        square, if that square is vacant. If it has not yet moved,
+        a pawn also has the option of moving two squares straight forward, provided both squares are
+        vacant. Pawns cannot move backwards.Pawns are the only pieces that capture differently from
+        how they move. A pawn can capture an enemy piece on either of the two squares diagonally in
+        front of the pawn (but cannot move to those squares if they are vacant).\n\nCastling
+        consists of moving the king two squares towards a rook, then placing the rook on
+        the other side of the king, adjacent to it. Castling is only permissible if all of the
+        following conditions hold. The king and rook involved in castling must not have previously
+        moved; There must be no pieces between the king and the rook; The king may not currently be
+        in check, nor may the king pass through or end up in a square that is under attack by an
+        enemy piece (though the rook is permitted to be under attack and to pass over an attacked
+        square); The king and the rook must be on the same rank.\n\nIf a player advances
+        a pawn to its eighth rank, the pawn is then promoted (converted) to a
+        queen, rook, bishop, or knight of the same color at the choice of the player (a queen is
+        usually chosen). The choice is not limited to previously captured pieces. Hence it is
+        theoretically possible for a player to have up to nine queens or up to ten rooks, bishops,
+        or knights if all of their pawns are promoted.\n\nA king is in check when it is under attack
+        by at least one enemy piece. A piece unable to
+        move because it would place its own king in check (it is pinned against its own king) may
+        still deliver check to the opposing player. It is illegal to make a move that places or
+        leaves one\'s king in check. The possible ways to get out of check are: Move the king to a
+        square where it is not in check. Capture the checking piece (possibly with the king). Block
+        the check by placing a piece between the king and the opponent\'s threatening piece.\n\nIf a
+        player\'s king is placed in check and there is no legal move that player can make to
+        escape check, then the king is said to be checkmated, the game ends, and that player loses.
+        Unlike other pieces, the king is never actually captured or removed from the board because
+        checkmate ends the game.
+    </string>
+    <string name="instructions_title">Chess Instructions</string>
+    <string name="toast_invalid">Invalid move!</string>
+    <string name="player1_name">Player 1</string>
+    <string name="player2_name">Player 2</string>
+    <string name="done">Done</string>
+    <string name="resign">Resign</string>
+    <string name="current_turn">Current Turn</string>
+    <string name="new_game">New Game</string>
+    <string name="winner">You are the winner!</string>
+    <string name="winner_box">Winner:</string>
+    <string name="loser_box">Loser:</string>
+    <string name="promote_dlg_title">Select a piece to promote to:</string>
+    <string name="white">(White)\n</string>
+    <string name="black">(Black)\n</string>
+    <string name="wins">Wins!</string>
+    <string name="Password">Enter Password:</string>
+    <string name="password2">Password2</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="background_description">Background</string>
+    <string name="password_entry_background">password_entry_background</string>
+    <string name="Player_Name">Enter Player Name:</string>
+    <string name="submit">Submit</string>
+    <string name="remember">Remember</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="passwords_mismatch_error">Passwords do not match</string>
+    <string name="name_hint">Name</string>
+    <string name="password_hint">Password</string>
+    <string name="create_new_account">Create New Player Account</string>
+    <string name="user_id">User ID</string>
+    <string name="user_password">User Password</string>
+    <string name="register">Register</string>
+    <string name="matchmaking">Searching for another player…</string>
+    <string name="user_id_empty_error">User ID can\'t be empty</string>
+    <string name="password_short_error">Password must be at least 8 characters</string>
+    <string name="register_server_error">An error occurred during registration. Try another username or try again later.</string>
+    <string name="login_server_error">An error occurred during the login process. Check your login credentials or try again later.</string>
+    <string name="registration_successful">Registration successful! Login to start playing!</string>
+    <string name="invalid_login_credentials">Invalid login credentials</string>
+    <string name="password_invalid_characters">Password must only contain alphanumeric characters</string>
+    <string name="username_invalid_characters">Player name must only contain alphanumeric characters</string>
+    <string name="opponent_found">Opponent found!</string>
+    <string name="server_save_fail">Failed to send state to server</string>
+    <string name="opponent_resigned">Opponent has resigned!</string>
+    <string name="inactive_too_long">Game lost! You have been inactive for too long.</string>
+
+</resources>

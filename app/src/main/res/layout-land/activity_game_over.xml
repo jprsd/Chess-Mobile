@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".GameOverActivity">
+
+    <ImageView
+        android:id="@+id/winner"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="3"
+        android:contentDescription="@string/winner"
+        app:srcCompat="@drawable/winner" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/winnerBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/loserBox"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/winner_box" />
+
+        <TextView
+            android:id="@+id/loserBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/loser_box" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loserBox"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:onClick="onNewGame"
+            android:text="@string/new_game" />
+    </RelativeLayout>
+
+</LinearLayout>

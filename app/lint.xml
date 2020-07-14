@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/chess_bdt45.png" />
+        <ignore path="src/main/res/drawable/chess_blt45.png" />
+        <ignore path="src/main/res/drawable/chess_board.png" />
+        <ignore path="src/main/res/drawable/chess_kdt45.png" />
+        <ignore path="src/main/res/drawable/chess_klt45.png" />
+        <ignore path="src/main/res/drawable/chess_ndt45.png" />
+        <ignore path="src/main/res/drawable/chess_nlt45.png" />
+        <ignore path="src/main/res/drawable/chess_pdt45.png" />
+        <ignore path="src/main/res/drawable/chess_plt45.png" />
+        <ignore path="src/main/res/drawable/chess_plt45.png" />
+        <ignore path="src/main/res/drawable/chess_qdt45.png" />
+        <ignore path="src/main/res/drawable/chess_qlt45.png" />
+        <ignore path="src/main/res/drawable/chess_rdt45.png" />
+        <ignore path="src/main/res/drawable/chess_rlt45.png" />
+        <ignore path="src/main/res/drawable/winner.jpg" />
+    </issue>
+</lint>

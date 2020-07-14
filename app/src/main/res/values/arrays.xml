@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="promotions">
+        <item>Queen</item>
+        <item>Rook</item>
+        <item>Knight</item>
+        <item>Bishop</item>
+    </string-array>
+</resources>

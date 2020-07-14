@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/chessBoardImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:contentDescription="@string/chessImage"
+        android:padding="20dp"
+        app:srcCompat="@drawable/chess_board" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/userNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/userName"
+            android:layout_alignLeft="@id/userName"
+            android:text="@string/user_id"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:maxLength="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userNameLabel"
+            android:ems="10"
+            android:hint="@string/name_hint"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/passwordLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName"
+            android:layout_alignStart="@id/userNameLabel"
+            android:layout_alignLeft="@id/userNameLabel"
+            android:layout_marginTop="16dp"
+            android:text="@string/user_password"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwordLabel"
+            android:layout_alignStart="@id/passwordLabel"
+            android:layout_alignLeft="@id/passwordLabel"
+            android:ems="10"
+            android:hint="@string/password_hint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/rememberCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/userName"
+            android:layout_toRightOf="@id/userName"
+            android:onClick="onRemember"
+            android:text="@string/remember" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rememberCheckBox"
+            android:layout_alignLeft="@id/rememberCheckBox"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onLogin"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/login"
+            android:layout_alignStart="@id/rememberCheckBox" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_button"
+            android:layout_alignStart="@id/rememberCheckBox"
+            android:layout_alignLeft="@id/rememberCheckBox"
+            android:layout_alignBottom="@id/password"
+            android:layout_gravity="center_vertical"
+            android:onClick="onStartRegister"
+            android:text="@string/sign_up" />
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.25">
+
+        <Button
+            android:id="@+id/instructions_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onShowInstructions"
+            android:text="@string/instructionsButtonText" />
+    </FrameLayout>
+
+</LinearLayout>
